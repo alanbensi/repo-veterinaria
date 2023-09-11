@@ -1,0 +1,38 @@
+main {
+    background-color: red;
+    height: 100vh;
+    section {
+        .tituloPrincipal {
+            text-align: center;
+            margin-top: 3rem;
+            font-size: 50px;
+        }
+        .contenedorCardsIndex {
+            justify-content: space-evenly;
+            gap: 5rem;
+            padding: 3rem;
+            .cardIndex {
+                .card-body {
+                    .tituloBaño {
+                        text-align: center;
+                        color: red;
+                    }
+                    .tituloAtencion {
+                        text-align: center;
+                        color: blue;
+                    }
+                    .tituloVerso {
+                        text-align: center;
+                        color: green;
+                    }
+                    p {
+                        font-size: 20px;
+                        &:hover {
+                            color: brown;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

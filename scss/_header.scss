@@ -1,0 +1,16 @@
+.header {
+    background-color: rgb(164, 164, 164);
+    nav {
+        div {
+            .contenedorLogo {
+                .logo {
+                    width: 12rem;
+                    border-radius: 10px;
+                }
+            }
+            .contenedorMenu {
+                justify-content: end;
+            }
+        }
+    }
+}

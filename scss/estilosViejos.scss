@@ -1,0 +1,80 @@
+.contenedorCardsIndex {
+    justify-content: space-evenly;
+    gap: 5rem;
+    padding: 3rem;
+}
+
+.cardIndex {
+    width: 2rem;
+}
+
+.formulario {
+    margin: 5rem;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.contenedorFlexFormulario {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.panchoConPapitas {
+    justify-content: end;
+}
+
+.panchoConPapit .contenedorBoton {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.contenedorBoton button {
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(164, 164, 164);
+    height: 70px;
+}
+
+.derechosFooter {
+    margin-left: 2rem;
+}
+
+.iconosFooter {
+    margin-right: 2rem;
+}
+
+.iconoInstagram {
+    font-size: 2rem;
+    margin: 2rem;
+    cursor: pointer;
+    color: #c13584;
+}
+
+.iconoFacebook {
+    font-size: 2rem;
+    margin: 2rem;
+    cursor: pointer;
+    color: #3b5998;
+}
+
+.iconoWhatsapp {
+    font-size: 2rem;
+    margin: 2rem;
+    cursor: pointer;
+    color: #1ca24d;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+    .tituloPrincipal {
+        font-size: 20px;
+    }
+}
