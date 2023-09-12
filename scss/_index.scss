@@ -6,6 +6,7 @@ main {
             text-align: center;
             margin-top: 3rem;
             font-size: 50px;
+            font-family: $tipografiaTitulos;
         }
         .contenedorCardsIndex {
             justify-content: space-evenly;
@@ -15,21 +16,29 @@ main {
                 .card-body {
                     .tituloBaño {
                         text-align: center;
-                        color: red;
+                        font-family: $tipografiaTitulos;
+                        color: violet;
                     }
                     .tituloAtencion {
-                        text-align: center;
-                        color: blue;
+                        @extend .tituloBaño;
                     }
                     .tituloVerso {
-                        text-align: center;
-                        color: green;
+                        @extend .tituloBaño;
                     }
                     p {
                         font-size: 20px;
                         &:hover {
                             color: brown;
                         }
+                    }
+                    .botonVerde {
+                        @include botones(15px, green)
+                    }
+                    .botonRojo {
+                        @include botones(40px, red)
+                    }
+                    .botonAzul {
+                        @include botones(10px, blue)
                     }
                 }
             }

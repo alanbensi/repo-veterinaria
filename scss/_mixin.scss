@@ -1,0 +1,7 @@
+@mixin botones ($tamano,$colorFondo) {
+    font-size: $tamano;
+    border: 2px red solid;
+    border-radius: 10px;
+    font-family: $tipografiaTitulos;
+    background-color: $colorFondo;
+}
